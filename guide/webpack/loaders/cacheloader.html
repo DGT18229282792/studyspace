@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>DGT WORKSPACE</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="used to record the knowledge of front-end development">
+    
+    <link rel="preload" href="/studyspace/assets/css/0.styles.8762443b.css" as="style"><link rel="preload" href="/studyspace/assets/js/app.cdd353b7.js" as="script"><link rel="preload" href="/studyspace/assets/js/2.733019b2.js" as="script"><link rel="preload" href="/studyspace/assets/js/20.1f126015.js" as="script"><link rel="prefetch" href="/studyspace/assets/js/10.358301fb.js"><link rel="prefetch" href="/studyspace/assets/js/11.508b6960.js"><link rel="prefetch" href="/studyspace/assets/js/12.e2f6ceed.js"><link rel="prefetch" href="/studyspace/assets/js/13.3e7399b5.js"><link rel="prefetch" href="/studyspace/assets/js/14.6ccaa1fb.js"><link rel="prefetch" href="/studyspace/assets/js/15.b73a667a.js"><link rel="prefetch" href="/studyspace/assets/js/16.03c3ccc5.js"><link rel="prefetch" href="/studyspace/assets/js/17.cbc34ff5.js"><link rel="prefetch" href="/studyspace/assets/js/18.5cc5093e.js"><link rel="prefetch" href="/studyspace/assets/js/19.359c4f3c.js"><link rel="prefetch" href="/studyspace/assets/js/3.c8f7d740.js"><link rel="prefetch" href="/studyspace/assets/js/4.0dd8aefa.js"><link rel="prefetch" href="/studyspace/assets/js/5.14db227c.js"><link rel="prefetch" href="/studyspace/assets/js/6.2d0a63f8.js"><link rel="prefetch" href="/studyspace/assets/js/7.0076cfb3.js"><link rel="prefetch" href="/studyspace/assets/js/8.2b055684.js"><link rel="prefetch" href="/studyspace/assets/js/9.7c261056.js">
+    <link rel="stylesheet" href="/studyspace/assets/css/0.styles.8762443b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/studyspace/" class="home-link router-link-active"><!----> <span class="site-name">DGT WORKSPACE</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/studyspace/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/studyspace/guide/info/resume/" class="nav-link">
+  个人简历v1
+</a></div><div class="nav-item"><a href="/studyspace/guide/info/resumeNew/" class="nav-link">
+  个人简历v2
+</a></div><div class="nav-item"><a href="/studyspace/guide/utils/utils/" class="nav-link">
+  Utils工具类
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/studyspace/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/studyspace/guide/info/resume/" class="nav-link">
+  个人简历v1
+</a></div><div class="nav-item"><a href="/studyspace/guide/info/resumeNew/" class="nav-link">
+  个人简历v2
+</a></div><div class="nav-item"><a href="/studyspace/guide/utils/utils/" class="nav-link">
+  Utils工具类
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>plugins</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>脚手架</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>npm插件</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>webpack</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>webpack-loader</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/studyspace/guide/webpack/loaders/cacheloader.html" aria-current="page" class="active sidebar-link">cacheloader</a></li></ul></section></li><li><a href="/studyspace/guide/clis/npm.html" class="sidebar-link">webpack-plugin</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>前端性能优化</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><p>前言：这个缓存loader会将输入内容的哈希值作为缓存文件的名称，缓存文件存放在指定的目录中。如果缓存文件存在，就直接读取缓存文件的内容，避免重复执行相同的loader；如果缓存文件不存在，就执行loader的处理逻辑，并将结果写入缓存文件中。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> getOptions <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">require</span><span class="token punctuation">(</span><span class="token string">'loader-utils'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token keyword">const</span> <span class="token punctuation">{</span> validate <span class="token punctuation">}</span> <span class="token operator">=</span> <span class="token keyword">require</span><span class="token punctuation">(</span><span class="token string">'schema-utils'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> schema <span class="token operator">=</span> <span class="token punctuation">{</span>
+  type<span class="token operator">:</span> <span class="token string">'object'</span><span class="token punctuation">,</span>
+  properties<span class="token operator">:</span> <span class="token punctuation">{</span>
+    cacheDirectory<span class="token operator">:</span> <span class="token punctuation">{</span>
+      type<span class="token operator">:</span> <span class="token string">'string'</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+module<span class="token punctuation">.</span><span class="token function-variable function">exports</span> <span class="token operator">=</span> <span class="token keyword">function</span><span class="token punctuation">(</span>source<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">const</span> options <span class="token operator">=</span> <span class="token function">getOptions</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span> <span class="token operator">||</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">;</span>
+  <span class="token function">validate</span><span class="token punctuation">(</span>schema<span class="token punctuation">,</span> options<span class="token punctuation">,</span> <span class="token punctuation">{</span>
+    name<span class="token operator">:</span> <span class="token string">'Cache Loader'</span><span class="token punctuation">,</span>
+    baseDataPath<span class="token operator">:</span> <span class="token string">'options'</span>
+  <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> cacheDirectory <span class="token operator">=</span> options<span class="token punctuation">.</span>cacheDirectory <span class="token operator">||</span> <span class="token string">'node_modules/.cache/cache-loader'</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> fs <span class="token operator">=</span> <span class="token keyword">require</span><span class="token punctuation">(</span><span class="token string">'fs'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> path <span class="token operator">=</span> <span class="token keyword">require</span><span class="token punctuation">(</span><span class="token string">'path'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> crypto <span class="token operator">=</span> <span class="token keyword">require</span><span class="token punctuation">(</span><span class="token string">'crypto'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> hash <span class="token operator">=</span> crypto<span class="token punctuation">.</span><span class="token function">createHash</span><span class="token punctuation">(</span><span class="token string">'sha1'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  hash<span class="token punctuation">.</span><span class="token function">update</span><span class="token punctuation">(</span>source<span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token keyword">const</span> digest <span class="token operator">=</span> hash<span class="token punctuation">.</span><span class="token function">digest</span><span class="token punctuation">(</span><span class="token string">'hex'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">const</span> cachePath <span class="token operator">=</span> path<span class="token punctuation">.</span><span class="token function">join</span><span class="token punctuation">(</span>cacheDirectory<span class="token punctuation">,</span> <span class="token template-string"><span class="token template-punctuation string">`</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">${</span>digest<span class="token interpolation-punctuation punctuation">}</span></span><span class="token string">.js</span><span class="token template-punctuation string">`</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">if</span> <span class="token punctuation">(</span>fs<span class="token punctuation">.</span><span class="token function">existsSync</span><span class="token punctuation">(</span>cachePath<span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">return</span> fs<span class="token punctuation">.</span><span class="token function">readFileSync</span><span class="token punctuation">(</span>cachePath<span class="token punctuation">,</span> <span class="token string">'utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+
+  <span class="token keyword">const</span> result <span class="token operator">=</span> source<span class="token punctuation">;</span>
+
+  fs<span class="token punctuation">.</span><span class="token function">mkdirSync</span><span class="token punctuation">(</span>cacheDirectory<span class="token punctuation">,</span> <span class="token punctuation">{</span> recursive<span class="token operator">:</span> <span class="token boolean">true</span> <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+  fs<span class="token punctuation">.</span><span class="token function">writeFileSync</span><span class="token punctuation">(</span>cachePath<span class="token punctuation">,</span> result<span class="token punctuation">,</span> <span class="token string">'utf-8'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">return</span> result<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+</code></pre></div><p>使用：在使用这个缓存loader时，只需要在其他loader的前面加上这个loader即可</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code>module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span>
+  <span class="token comment">// ...</span>
+  module<span class="token operator">:</span> <span class="token punctuation">{</span>
+    rules<span class="token operator">:</span> <span class="token punctuation">[</span>
+      <span class="token punctuation">{</span>
+        test<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">\.js$</span><span class="token regex-delimiter">/</span></span><span class="token punctuation">,</span>
+        use<span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token string">'cache-loader'</span><span class="token punctuation">,</span>
+          <span class="token string">'babel-loader'</span>
+        <span class="token punctuation">]</span><span class="token punctuation">,</span>
+        exclude<span class="token operator">:</span> <span class="token regex"><span class="token regex-delimiter">/</span><span class="token regex-source language-regex">node_modules</span><span class="token regex-delimiter">/</span></span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+  <span class="token comment">// ...</span>
+<span class="token punctuation">}</span>
+
+</code></pre></div><p>2023/5/25 DGT</p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">5/25/2023, 10:31:09 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/studyspace/guide/d-ui/directives.html" class="prev">
+        指令库开发教程
+      </a></span> <span class="next"><a href="/studyspace/guide/clis/npm.html">
+        webpack-plugin
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/studyspace/assets/js/app.cdd353b7.js" defer></script><script src="/studyspace/assets/js/2.733019b2.js" defer></script><script src="/studyspace/assets/js/20.1f126015.js" defer></script>
+  </body>
+</html>
